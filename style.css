@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f8eeee;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
+}
+.container {
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  height: 400px;
+}
+.result {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 50%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px;
+}
+.rounded {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 30px;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.result h3 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.summary {
+  padding: 20px;
+  font-weight: 700;
+  position: relative;
+
+  color: black;
+}
+.summary h2 {
+  margin-bottom: 20px;
+}
+
+.summary-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 260px;
+  height: 50px;
+  padding: 0px 10px;
+}
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+.pink {
+  color: hsl(0, 100%, 67%);
+}
+.yellow {
+  color: hsl(39, 100%, 56%);
+}
+.green {
+  color: hsl(166, 100%, 37%);
+}
+.violet {
+  color: hsl(234, 85%, 45%);
+}
+
+.summary-data p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.summary-data img {
+  margin-right: 10px;
+}
+.light-dark {
+  color: rgba(0, 0, 0, 0.5);
+}
+.light-white {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.continue {
+  background-color: hsl(224, 30%, 27%);
+  width: 200px;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 30px;
+  margin: 20px 0px;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  right: 17%;
+  cursor: pointer;
+}
+.containe:hover {
+ background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
